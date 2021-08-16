@@ -6,3 +6,7 @@ edition = "2018"
 [dependencies]
 tokio = { version = "1.7", features = ["full"] }
 termion = "1.5"
+
+[lib]
+name = "libkeep_these"
+path = "src/lib.rs"

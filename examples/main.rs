@@ -5,7 +5,7 @@ use termion;
 use termion::input::TermRead;
 use tokio::sync::oneshot;
 
-use libkeep_these::System;
+use libkeep_these::sys::System;
 
 #[tokio::main]
 async fn main() {

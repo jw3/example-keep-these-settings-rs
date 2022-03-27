@@ -8,5 +8,9 @@ tokio = { version = "1.7", features = ["full"] }
 termion = "1.5"
 
 [lib]
+crate-type = ["cdylib", "lib"]
 name = "libkeep_these"
 path = "src/lib.rs"
+
+[dependencies.pyo3]
+version = "0.14"
